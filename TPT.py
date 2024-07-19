@@ -7,7 +7,7 @@ import seaborn as sns
 from matplotlib.ticker import MaxNLocator
 import plotly.graph_objects as go
 
-st.set_page_config(page_title="TPT", page_icon="chart_with_upwards_trend", layout="wide")
+st.set_page_config(page_title="TPT", page_icon="rocket", layout="wide")
 
 #Def for Age Group Columns
     
@@ -151,7 +151,7 @@ df_o8 = df_o8.query(
 )
 
 # ---- MAINPAGE ----
-st.title(":chart_with_upwards_trend: TB Preventive Therapy")
+st.title(":rocket: TB Preventive Therapy")
 st.markdown("##")
 
 # Display DataFrame or a message if empty
